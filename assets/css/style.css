@@ -1,0 +1,419 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+
+ html {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.T-padding-8 {
+    padding: 0 8px!important;
+}
+
+.T-padding-16 {
+    padding: 16px!important;
+}
+
+.T-padding-32 {
+    padding: 32px 16px!important;
+}
+
+.T-padding-64 {
+    padding: 64px 0!important;
+}
+
+.T-padding-large {
+    padding: 12px 24px!important;
+}
+
+.T-wide {
+    margin: 10px 0;
+    letter-spacing: 4px;
+}
+
+.T-hlarge {
+    font-size: 24px!important;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+b {
+    font-size: 24px;
+}
+
+.T-bar-item {
+    font-size: 18px;
+    text-decoration: none;
+    color:  #757575;
+    width: 100%;
+    text-align: left;
+    display: block;
+    font-weight: bold;
+}
+
+
+
+.T-button {
+    cursor: pointer;
+    padding: 8px 16px;      
+}
+
+.T-button:hover {
+    background-color: #fcf9f9cc!important;
+    color: #000!important;
+}
+
+.T-text-bold {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+
+.T-txt {
+    font-size: 15px!important;
+}
+
+.T-padding{
+    padding: 8px 16px;
+}
+
+.T-txt-footer {
+    font-weight: 500;
+    color: #000;
+    font-size: 15px;
+}
+
+.T-txt-footer:hover {
+    color: #000;
+    background-color: #dbd7d7a6;
+}
+
+.T-sidebar {
+    overflow: auto;
+    width: 250px;
+    height: 100%;
+    position: fixed!important;
+}
+
+ ion-icon {
+    font-size: 24px!important;
+ }
+
+
+
+.icon-inner {
+    padding-top: 6px;
+    
+}
+ .padding-top-icon {
+    padding-top: 8px;
+ }
+
+ .T-padding-header {
+     padding: 0.01em 16px;
+ }
+
+ .T-icon-header {
+     display: flex;
+     justify-content: space-between;
+    }
+    
+.margin-top-header{
+        margin: 24px 0;
+        
+}
+
+
+ .margin-left-icon{
+     margin-right: 16px!important;
+ }
+
+ .img-ontop {
+     width: 100%;
+ }
+
+ .T-display-container{
+     position: relative;
+     padding: 0 16px;
+ }
+
+ .T-display-top-left{
+     position: absolute;
+     top: 0;
+     padding: 24px 48px;
+ }
+
+ h1 {
+     color: #fff;
+     margin: 10px 0px;
+ }
+
+ .T-h1-light {
+     font-weight: 400;
+     font-size: 36px;
+ }
+
+ .T-h1 {
+     font-size: 64px;
+     font-weight: 500;
+ }
+ 
+ .T-padding-btn {
+     padding: 12px 24px;
+     background-color: #000;
+     color: #fff;
+     text-decoration: none;
+     font-size: 18px;
+     display: inline-block;
+ }
+
+ .T-padding-btn:hover {
+     background-color: #ccc;
+     color: #000;
+ }
+
+ .margin-p{
+     margin: 15px 0;
+ }
+
+.T-display{
+    display: contents;
+}
+
+ .T-container {
+     padding: 0 16px!important;
+     color: #757575;
+    }
+    
+.T-grey {
+    background-color: #e0e0e0;
+ }
+
+.T-row{
+    display: flex;
+}
+
+.T-grayscale {
+    filter: grayscale(75%);
+}
+
+
+
+
+    @media (min-width: 1024px) {
+    .T-r3
+    {
+        width: 24.9999999%;
+    }
+}
+
+b {
+    color: #000;
+}
+
+.T-b-bold {
+    font-size: 15px;
+}
+
+.T-b-red {
+    color: #f44336!important;
+    font-size: 15px;
+}
+
+.top-left {
+    position: absolute;
+    left: 17px;
+    background-color: #000;
+    color: #fff;
+    padding: 0 8px;
+    font-family: monospace;
+}
+
+.T-padding-content {
+    padding: 0 16px;
+}
+
+.T-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.icon-shop{
+    font-size: 15px!important;
+    
+}
+
+.T-black {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+}
+
+.T-black {
+    background-color:     #cfcfcf;
+}
+
+.T-display-hover {
+    display: none;
+}
+
+.T-display-hover:hover {
+    background-color: #cfcfcf;
+    color: #000;
+}
+
+.T-display-container:hover   .T-display-hover {
+    display: block!important
+}
+
+
+.hover-img:hover {
+    visibility: inherit;
+}
+
+.T-black-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.T-subscribe {
+    font-size: 36px;
+    margin: 10px 0;
+    display: block;
+    font-weight: 500;
+}
+
+.T-p-subsribe {
+    font-size: 15px;
+    margin: 15px 0;
+    display: block;
+}
+
+.hover-icon:hover {
+    opacity: 0.6!important;
+} 
+
+.T-input-subcribe {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.T-margin-15 {
+    display: block;
+    margin: 15px 0;
+}
+
+.T-border {
+    border: 1px solid #ccc!important;
+}
+
+.T-red {
+    background-color: #f44336!important;
+    color: #fff;
+    border: none;
+}
+
+.T-margin-bottom {
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+
+.T-col-sub {
+    width: 33.3333333333%;
+    padding: 0 8px;
+}
+
+.T-row-sub {
+    display: flex;
+}
+
+.T-margin-10 {
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.T-margin-12 {
+    margin: 12px 0;
+}
+
+.T-center {
+    text-align: center;
+}
+
+.T-width-100 {
+    width: 100%;
+    padding: 8px;
+}
+
+.hover-btn:hover {
+    background-color: #cfcfcf;
+    color: #000;
+    cursor: pointer;
+}
+
+.T-mid {
+    text-align: center;
+}
+
+.T-font-12 {
+    font-size: 12px;
+}
+
+.T-black-a {
+    color: #000;
+    
+}
+
+.T-align {
+    text-align: inherit;
+}
+
+.T-grey-input {
+    background-color: #f0f0f0f8;
+}
+
+.T-sub-icon {
+    font-size: 12px!important;
+}
+
+.T-black-end {
+    background-color: #000;
+    color: #fff;
+}
+
+
+.T-padding-24 {
+    padding: 24px 0;    
+ }
+
+ .T-white {
+     color: #fff;
+ }
+
+ .T-hover-opacity:hover {
+     opacity: 0.6;
+ }
+
+ .T-font-item {
+        
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\w3_cafe"
+		},
+		{
+			"path": "..\\..\\..\\..\\w3_clothing"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "w3_clothing"
+	}
+}

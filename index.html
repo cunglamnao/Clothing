@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/ionicons.designerpack/arrow-down-outline.svg">
+    <title>My Clothing</title>
+</head>
+<body class="T-content" style="max-width:1200px;">
+
+    <!-- Sidebar menu -->
+    <nav class="T-sidebar T-bar-block T-white T-collapse T-sidebar-mini " style="z-index: 3;width:250px" id="mySidebar">
+        <div class="T-padding-16 T-top">
+            <h5 class="T-wide">
+                <b class="T-bold-res">LOGO</b>
+            </h5>
+            <a href="#" class="T-padding-8-16 T-Close-x" onclick="T_Close()">
+                <ion-icon name="close"></ion-icon>
+            </a>
+        </div>
+        <div class="T-large T-padding-64 T-top-hiden">
+            <a href="#" class="T-bar-item T-button T-sidebar-mini ">Shirts</a>
+            <a href="#"class="T-bar-item T-button T-sidebar-mini" >Dresses</a>
+            <a onclick="myFunc()" href="#"class="T-button T-text-bold T-sidebar-mini " id="Btn" >Jeans
+            <ion-icon name="arrow-dropdown"  ></ion-icon>
+        </a>
+            <div id="demo" class="T-padding-large T-show T-top-hiden" >
+                <a href="#"class="T-button T-text-bold T-txt T-sidebar-mini">  <ion-icon name="arrow-dropright" class="padding-left-icon"></ion-icon>
+                        Skinny
+                </a>
+                <a href="#"class="T-bar-item T-button T-txt T-sidebar-mini T-bold-mini">Relaxed</a>
+                <a href="#"class="T-bar-item T-button T-txt T-sidebar-mini T-bold-mini">Bootcut</a>
+                <a href="#"class="T-bar-item T-button T-txt T-sidebar-mini T-bold-mini">Straight</a>
+            </div>
+            <a href="#"class="T-bar-item T-button T-top-hiden T-sidebar-mini">Jackets</a>
+            <a href="#"class="T-bar-item T-button T-top-hiden T-sidebar-mini">Gymwear</a>
+            <a href="#"class="T-bar-item T-button T-top-hiden T-sidebar-mini">Blazer</a>
+            <a href="#"class="T-bar-item T-button T-top-hiden T-sidebar-mini">Shoes</a>
+        </div>
+        <a href="#" class="T-bar-item T-padding T-txt-footer T-sidebar-mini">Contact</a>
+        <a href="#" class="T-bar-item T-padding T-txt-footer T-sidebar-mini" >Newsletter</a>
+        <a href="#" class="T-bar-item T-padding T-txt-footer T-sidebar-mini">Subsribe</a>
+
+    </nav>
+    <!-- Top menu small screen (Tablet and mobile phone)    -->
+    <header class="T-bar  T-hide-large T-black-btn ">
+        <div class="T-bar-item">
+            <p class="T-align-logo">
+               
+                LOGO
+            </p>
+            <a href="#" class="T-bar-in-item T-button T-align-logo " onclick="T_Open()">
+                <ion-icon name="menu" class="T-font-item"></ion-icon>
+                
+            </a>
+        </div>
+    </header>
+    <!-- Open sidebar on small screens -->
+    <div class=" T-overlay" onclick="T_Close()" title="close side menu" id="myOverlay" style="display: none;">
+    </div>
+    <!-- Top header -->
+    <div class="T-main" style="margin-left: 250px;">
+        <header class="T-hlarge T-padding-header T-icon-header">
+            <p class="margin-top-header">Jeans</p>
+            <p class="margin-top-header">
+                <ion-icon name="cart" class="margin-left-icon"></ion-icon>
+                <ion-icon name="search" ></ion-icon>
+            </p>
+        </header>
+
+        <!--   Image header -->
+        <div class="T-display-container">
+            <img src="./assets/img/jeans.jpg" alt="Jeans" class="img-ontop">
+            <div class="T-display-top-left">
+                <h1 class="T-h1">New arrivals</h1>
+                <h1 class="T-h1-light">COLLECTION 2016</h1>
+                <p class="margin-p"><a href="#" class="T-padding-btn">SHOP NOW</a></p>
+            </div>
+        </div>
+        <div class="T-container margin-p">
+            <p>8 items</p>
+        </div>
+
+        <!-- Produce -->
+        <div class="T-row T-grayscale">
+            <div class="T-col T-r3">
+                <div class="T-container">
+                    <img src="./assets/img/jeans1.jpg" alt="jean1" style="width:100%">
+                    <p class="margin-p">Ripped Skinny Jeans
+                        <br>
+                        <b class="T-b-bold">$24.99</b>
+                    </p>
+                </div>
+                <div class="T-container">
+                    
+                        <img src="./assets/img/jeans2.jpg" alt="Jean2" style="width: 100%;">
+                      
+                        <p class="margin-p">
+                            Mega Ripped Jeans
+                            <br>
+                            <b class="T-b-bold">$19.99</b>
+                        </p>
+                    
+                </div>
+            </div>
+            <div class="T-col T-r3">
+                <div class="T-container T-display">
+                    <div class="T-display-container">
+
+                        <img src="./assets/img/jeans2.jpg" alt="Jean2" style="width: 100%;" class="hover-img">
+                        <span class="top-left">New</span>
+                        <div class="T-middle T-display-hover">
+                            <button class="T-button T-black-btn">
+                                Buy now
+                                <ion-icon name="cart" class="icon-shop"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="margin-p T-padding-content">
+                        Mega Ripped Jeans
+                        <br>
+                        <b class="T-b-bold">$19.99</b>
+                    </p>
+                </div>
+                <div class="T-container">
+                    <img src="./assets/img/jeans3.jpg" alt="Jean3" style="width: 100%;">
+                    <p class="margin-p">
+                        Washed Skinny Jeans
+                        <br>
+                        <b class="T-b-bold">$20.50</b>
+                    </p>
+                </div>
+            </div>
+            <div class="T-col T-r3">
+                <div class="T-container ">
+                    <img src="./assets/img/jeans3.jpg" alt="Jean3" style="width: 100%;">
+                    <p class="margin-p">
+                        Washed Skinny Jeans
+                        <br>
+                        <b class="T-b-bold">$20.50</b>
+                    </p>
+                </div>
+                <div class="T-container T-display">
+                    <div class="T-display-container">
+                        <img src="./assets/img/jeans4.jpg" alt="Jean4" style="width: 100%;">
+                        <span class="top-left">Sale</span>
+                        <div class="T-middle T-display-hover">
+                            <button class="T-button T-black-btn">
+                                Buy now
+                                <ion-icon name="cart" class="icon-shop"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="margin-p">
+                        Vintage Skinny Jeans
+                        <br>
+                        <b class="T-b-red">$14.99</b>
+                    </p>
+                </div>
+            </div>
+            <div class="T-col T-r3">
+                <div class="T-container">
+                    <img src="./assets/img/jeans4.jpg" alt="Jean4" style="width: 100%;">
+                    <p class="margin-p">
+                        Vintage Skinny Jeans
+                        <br>
+                        <b class="T-b-bold">$14.99</b>
+                    </p>
+                </div>
+                <div class="T-container">
+                    <img src="./assets/img/jeans1.jpg" alt="jean1" style="width:100%">
+                    <p class="margin-p">Ripped Skinny Jeans
+                        <br>
+                        <b class="T-b-bold">$24.99</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Subscribe section -->
+        <div class="T-contaniner T-black-btn T-padding-32 T-sub-mini">
+            <h1 class="T-subscribe">Subscribe</h1>
+            <p class="T-p-subsribe">To get special offers and VIP treatment:</p>
+            <p class="T-margin-15"><input type="text" placeholder="Enter e-mail" style="width: 100%;" class="T-input-subcribe T-border"></p>
+            <button type="button" class="T-button T-red T-margin-bottom">Subscribe</button>
+        </div>
+
+        <!-- Footer -->
+        <footer class="T-padding-64 T-grey" >
+            <div class="T-padding-8 T-row-sub">
+                <div class="T-col-sub">
+                    <h4 class="T-margin-10">Contact</h4>
+                    <p class="T-margin-12 T-center">Questions? Go ahead.</p>
+                    <form action="">
+                        <p class="T-margin-12">
+                            <input type="text" placeholder="Name" required name="Name" class="T-width-100 T-border T-grey-input">
+                        </p>
+                        <p class="T-margin-12">
+                            <input type="text" placeholder="Email" required name="Email" class="T-width-100 T-border T-grey-input">
+                        </p>
+                        <p class="T-margin-12">
+                            <input type="text" placeholder="Subject" required name="Subject" class="T-width-100 T-border T-grey-input">
+                        </p>
+                        <p class="T-margin-12">
+                            <input type="text" placeholder="Message" required name="Message" class="T-width-100 T-border T-grey-input">
+                        </p>
+                        <button class="T-width-100 T-black-btn hover-btn">Send</button>
+                    </form>
+
+                </div>
+                <div class="T-col-sub T-mid">
+                    <h4 class="T-margin-10">About</h4>
+                    <p class="T-margin-12 T-font-12"><a href="#" class="T-black-a">About us</a></p>
+                    <p class="T-margin-12 T-font-12"><a href="#" class="T-black-a">We're hiring</a></p>
+                    <p class="T-margin-12 T-font-12"><a href="#" class="T-black-a">Support</a></p>
+                    <p class="T-margin-12 T-font-12"><a href="#" class="T-black-a">Find store</a></p>
+                    <p class="T-margin-12 T-font-12"><a href="#" class="T-black-a">Shipment</a></p>
+                    <p class="T-margin-12 T-font-12"><a href="#" class="T-black-a">Payment</a></p>
+                    <p class="T-margin-12 T-font-12"><a href="#" class="T-black-a">Gift card</a></p>
+                    <p class="T-margin-12 T-font-12"><a href="#" class="T-black-a">Return</a></p>
+                    <p class="T-margin-12 T-font-12"><a href="#" class="T-black-a">Help</a></p>
+                </div>
+                <div class="T-col-sub">
+                    <h4 class="T-margin-10 T-align">Store</h4>
+                    <p class="T-margin-12 T-font-12"> <i class="ti-location-pin"></i>
+                        Company Name</p>
+                    <p class="T-margin-12 T-font-12"><ion-icon name="call" class="T-sub-icon"></ion-icon>
+                        0044123123</p>
+                    <p class="T-margin-12 T-font-12"><ion-icon name="mail" class="T-sub-icon"></ion-icon>
+                        ex@mail.com</p>
+                    <h4 class="T-margin-10 T-align">We accept</h4>
+                    <p class="T-margin-12 T-font-12"> <ion-icon name="card" class="T-sub-icon"></ion-icon>
+                        Amex</p>
+                    <p class="T-margin-12 T-font-12"><i class="ti-credit-card"></i>
+                        Credit Card</p>
+                        <br>
+                        <ion-icon name="logo-facebook" class="hover-icon"></ion-icon> 
+                        <ion-icon name="logo-instagram" class="hover-icon"></ion-icon>
+                        <ion-icon name="logo-snapchat" class="hover-icon"></ion-icon>
+                        <ion-icon name="logo-pinterest" class="hover-icon"></ion-icon>
+                        <ion-icon name="logo-twitter" class="hover-icon"></ion-icon>
+                        <ion-icon name="logo-linkedin" class="hover-icon"></ion-icon>
+                      
+                </div>
+                <div></div>
+            </div>
+        </footer>
+        <div class="T-black-end T-center T-padding-24">
+            Powered by
+            <a href="#" title="W3.CSS" class="T-hover-opacity T-white"> TruongCSS</a>
+        </div>
+    </div>
+    <script>    
+    // Open and close item of LOGO
+        function myFunc() {
+            var x= document.getElementById('demo');
+            if( x.style.display =='block'){
+                x.style.display='none';
+            }
+            else
+            {
+                x.style.display='block'; 
+             }   
+        }
+        //Open and Close sidebar
+        function T_Open() {
+            var y= document.getElementById("mySidebar");
+            var z=document.getElementById("myOverlay");
+            if(y.style.display=='block'){
+
+                y.style.display='none';
+                z.style.display='none';
+            }
+
+            else 
+            {
+                y.style.display='block';
+                z.style.display='block';
+            }
+        }
+
+        function T_Close() {
+            document.getElementById("mySidebar").style.display='none';
+            document.getElementById("myOverlay").style.display='none';
+        }
+
+    </script>
+
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
